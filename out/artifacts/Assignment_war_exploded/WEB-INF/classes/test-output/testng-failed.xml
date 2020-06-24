@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite2]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="test.TestUser">
+        <parameter name="User" value="@@@"/>
+        <parameter name="Pass" value="admin"/>
+        <parameter name="User2" value=""/>
+        <parameter name="Pass2" value=""/>
+        <parameter name="Pass4" value="admin123"/>
+        <parameter name="Pass3" value="admin"/>
+        <parameter name="User4" value="admin"/>
+        <parameter name="User3" value=""/>
+        <methods>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="test3" invocation-numbers="0"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.TestUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

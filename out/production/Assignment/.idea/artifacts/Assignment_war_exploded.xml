@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Assignment:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Assignment_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Assignment" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="org.testng:testng:6.8.8" />
+          <element id="library" level="application" name="Spring lib" />
+          <element id="library" level="application" name="Spring Hibernate" />
+          <element id="library" level="application" name="Spring Upload File" />
+          <element id="library" level="application" name="Spring Email" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Assignment/web/Web" />
+    </root>
+  </artifact>
+</component>
